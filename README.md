@@ -1,4 +1,4 @@
-# sum-of-range
+let # sum-of-range
 
 ## Aufgabenstellung - Teil 1
 Schreibe eine Funktion, die die Summe aller Zahlen von 0 bis 100 berechnet.
