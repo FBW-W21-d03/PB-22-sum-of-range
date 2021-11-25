@@ -1,34 +1,32 @@
-/*
-Multiplikation von 1 bis 100
-*/
 
-function product() {
-    let counter = 0;
-    let produktAllerZahlen = 0;
+function bis100() {
+    let counterStart = 0;
+    let sum = 0;
 
-    while (counter <= 100) {
-        produktAllerZahlen = produktAllerZahlen + counter;
-        counter = counter + 1;
+    while (counterStart <= 100) {
+        sum = sum + counterStart;
+        counterStart++;
     }
 
-    return produktAllerZahlen;
+    return sum;
 }
 
-let ergebnis = product();
+let ergebnis = bis100();
 
 console.log("Aufgabe 1) ", ergebnis);
 
 
-function product2(counter, range2) {
-    let produktAllerZahlen = 0;
-    while (counter <= range2) {
-        produktAllerZahlen = produktAllerZahlen + counter;
-        counter = counter + 1;
+
+function fromToFunction(counterStart, endCount) {
+    let sum = 0;
+    while (counterStart <= endCount) {
+        sum = sum + counterStart;
+        counterStart++;
     }
-    return produktAllerZahlen;
+    return sum;
 }
 
 
-let ergebnis2 = product2(100, 200);
+let ergebnis2 = fromToFunction(100, 200);
 
 console.log("Aufgabe 2) ", ergebnis2);
