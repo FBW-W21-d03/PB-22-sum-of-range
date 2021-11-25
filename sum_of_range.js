@@ -29,6 +29,6 @@ function product2(counter, range2) {
 }
 
 
-let ergebnis2 = product2(100, 500);
+let ergebnis2 = product2(100, 200);
 
 console.log("Aufgabe 2) ", ergebnis2);
