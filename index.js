@@ -1,12 +1,13 @@
+function ausgabe() {
+    let zahlen = 1;
+    let alleZahlen = 1; 
 
-let zahl = [];
-let ausgabe = 2;
-
-
-
-while(zahl.length <= 100); {
-    zahl.push(ausgabe);
-    ausgabe+=2;
-    if(zahl.length == 100);
+    while (ausgabe <= 100) {
+        alleZahlen = alleZahlen + zahlen;
+        zahlen = zahlen + 1;
     }
-console.log("ausgabe",zahl + ausgabe);     
+
+    return alleZahlen;
+}
+let ergebnis = ausgabe();
+console.log("summe");
