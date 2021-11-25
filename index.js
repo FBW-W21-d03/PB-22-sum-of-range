@@ -10,16 +10,16 @@ function product(){
 }
 
 let ergebnis =product();
-console.log(ergebnis);
+console.log("ergebnis=",ergebnis);
 
-function product2(){
-    let numbers = 0;
+function product2(a,b){
+    let numbers = a;
     let allNumbers = 0;
-    while(numbers<= 50){
+    while(numbers<= b){
         allNumbers = allNumbers +  numbers;
         numbers = numbers + 1;
     }
     return allNumbers;
 }
-let ergebnis2 = product2();
-console.log(ergebnis2);
+let ergebnis2 = product2(100,200);
+console.log("ergebnis = ",ergebnis2);
