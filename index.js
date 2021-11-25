@@ -17,16 +17,17 @@ console.log(ergebnis);
 
 
 
-function product2(counter, range2) {
-    let produktAllerZahlen = 0;
-    while (counter <= range2) {
-        produktAllerZahlen = produktAllerZahlen + counter;
+function productzwei() {
+    let counter = 1;
+    let zahl= 0;
+    while (counter <= zahl) {
+        zahl = zahl + counter;
         counter = counter + 1;
     }
-    return produktAllerZahlen;
+    return zahl;
 }
 
 
-let ergebniszwei = product2(150, 200);
+let ergebniszwei = productzwei(150, 200);
 
 console.log(ergebniszwei);
