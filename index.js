@@ -27,6 +27,6 @@ function product2(counter, range2) {
 }
 
 
-let ergebniszwei = product2(100, 500);
+let ergebniszwei = product2(150, 200);
 
 console.log(ergebniszwei);
